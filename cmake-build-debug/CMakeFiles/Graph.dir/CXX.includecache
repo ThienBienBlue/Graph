@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/Graph/Graph.cpp
+iostream
+-
+Graph.h
+C:/dev/Graph/Graph.h
+KeyValHeap.h
+C:/dev/Graph/KeyValHeap.h
+queue
+-
+
+C:/dev/Graph/Graph.h
+string
+-
+vector
+-
+unordered_map
+-
+
+C:/dev/Graph/KeyValHeap.h
+utility
+-
+vector
+-
+unordered_map
+-
+iostream
+-
+
